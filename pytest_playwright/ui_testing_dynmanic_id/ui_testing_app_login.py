@@ -38,9 +38,3 @@ def test_failed_login(page: Page):
 
     label = page.locator("label#loginstatus")
     expect(label).to_have_text("Invalid username/password")
-
-
-
-
-    
-
